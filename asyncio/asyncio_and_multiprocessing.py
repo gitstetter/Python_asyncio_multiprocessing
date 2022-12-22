@@ -56,7 +56,7 @@ def start_scraping(num_pages: int, output_file: str, i: int):
 def main():
     NUM_PAGES = 100 # Number of pages to scrape altogether
     NUM_CORES = cpu_count() # Our number of CPU cores (including logical cores)
-    OUTPUT_FILE = "./asyncio/async_files/wiki_titles.tsv" # File to append our scraped titles to
+    OUTPUT_FILE = "./async_files/wiki_titles.tsv" # File to append our scraped titles to
 
     PAGES_PER_CORE = floor(NUM_PAGES / NUM_CORES)
     PAGES_FOR_FINAL_CORE = PAGES_PER_CORE + NUM_PAGES % PAGES_PER_CORE # For our final core
