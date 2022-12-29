@@ -18,7 +18,7 @@ def chunked_http_client(num_chunks):
     return http_get
 
 async def main():
-    urls = ["https://binaryjazz.us/wp-json/genrenator/v1/genre/"]*1_00 #<- input lists to get from
+    urls = ["https://binaryjazz.us/wp-json/genrenator/v1/genre/"]*1_000 #<- input lists to get from
     responses = [] #<- putput list of hettp responses
 
     http_client = chunked_http_client(100) #<- set async http client wit limit of parallel requests
