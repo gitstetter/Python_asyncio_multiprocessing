@@ -32,3 +32,11 @@ if __name__ == "__main__":
     pi_estimate = sum(nbr_in_quarter_unit_circles) * 4 / float(nbr_samples_in_total)
     print("Estimated pi", pi_estimate)
     print("Delta:", time.time() - t1)
+
+# Making 250,000,000.0 samples per 4 worker threads
+# Executing estimate_nbr_points_in_quarter_circle with 250,000,000.0 on pid 30580
+# Executing estimate_nbr_points_in_quarter_circle with 250,000,000.0 on pid 30580
+# Executing estimate_nbr_points_in_quarter_circle with 250,000,000.0 on pid 30580
+# Executing estimate_nbr_points_in_quarter_circle with 250,000,000.0 on pid 30580
+# Estimated pi 3.141628796
+# Delta: 578.0471358299255
