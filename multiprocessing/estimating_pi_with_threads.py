@@ -1,6 +1,5 @@
 import random
 import time
-
 import os
 
 def estimate_nbr_points_in_quarter_circle(nbr_estimates):
@@ -39,4 +38,4 @@ if __name__ == "__main__":
 # Executing estimate_nbr_points_in_quarter_circle with 250,000,000.0 on pid 30580
 # Executing estimate_nbr_points_in_quarter_circle with 250,000,000.0 on pid 30580
 # Estimated pi 3.141628796
-# Delta: 578.0471358299255
+# Delta: 578.0471358299255 -> ±4x duration compared to individual processes

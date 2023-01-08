@@ -38,4 +38,4 @@ if __name__ == "__main__":
 # Executing estimate_nbr_points_in_quarter_circle with 250,000,000.0 on pid 30487
 # Executing estimate_nbr_points_in_quarter_circle with 250,000,000.0 on pid 30488
 # Estimated pi 3.141513772
-# Delta: 154.80257725715637
+# Delta: 154.80257725715637 ±1/4 duration compared to multiple threads
