@@ -41,16 +41,23 @@ if __name__ == "__main__":
 
     t1 = time.time()
 
-    number_range = range(1, 200_000_000)  # C
+    number_range = range(1, 200_000
+    
+    
+    
+    
+    )  # C
 
 
     for possible_prime in number_range:
         possible_primes_queue.put(possible_prime)
+
     print("ALL JOBS ADDED TO THE QUEUE")
 
     # add poison pills to stop the remote workers
     for n in range(nbr_workers):
         possible_primes_queue.put(FLAG_ALL_DONE)
+        
 
     print("NOW WAITING FOR RESULTS...")
     processors_indicating_they_have_finished = 0
